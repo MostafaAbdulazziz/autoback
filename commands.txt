@@ -1,1 +1,0 @@
-tar -czvf /path/to/save/archive.tar.gz --exclude='*.log' /home/user/docs
