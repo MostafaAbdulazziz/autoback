@@ -3,7 +3,8 @@
 shopt -s expand_aliases 
 alias include="source"
 include "$HOME/autoback/config/new_backup_script.sh"
-while [ ture ]
+include "$HOME/autoback/config/restore_backup.sh"
+while [ true ]
 do
 	printf "Welcome to Autoback\n"	
 	printf "1) Configure new backup\n"
@@ -15,7 +16,7 @@ do
 	read -e option
 	case $option in 
 		1) new_backup ;;
-		2) ;;
+		2) restore ;;
 		3) ;;
 		4) ;;
 		5) printf "Goodbye..\n" 
