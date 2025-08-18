@@ -15,10 +15,10 @@ new_backup()
 			printf "Enter password:"
 			read -s -e pw
 		fi
-	printf "Check for new backup after (in hours):"
-        	read -e time
-	printf "Enter Email to Notify:"
-		read -e mail
+	# printf "Check for new backup after (in hours):"
+    #     	read -e time
+	# printf "Enter Email to Notify:"
+	# 	read -e mail
 
 	create_backup $backup_dir $backup_name $option $pw
 
