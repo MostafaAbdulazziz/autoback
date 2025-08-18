@@ -1,7 +1,7 @@
 source "$HOME/autoback/config/compression_script.sh"
 new_backup()
 {
-	printf "Enter Bakup Directory:"
+	printf "Enter Backup Directory:"
 		read -e backup_dir
 	printf "Enter backup name:"
 		read -e backup_name
