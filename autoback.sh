@@ -2,10 +2,10 @@
 #This script for automating backup of certain directory with notification service
 shopt -s expand_aliases 
 alias include="source"
-include "$HOME/autoback/config/new_backup_script.sh"
-include "$HOME/autoback/config/restore_backup.sh"
-include "$HOME/autoback/config/view_backups_script.sh"
-include "$HOME/autoback/config/backup_delete_script.sh"
+include "$HOME/autoback/config/backup/new_backup_script.sh"
+include "$HOME/autoback/config/restore/restore_backup.sh"
+include "$HOME/autoback/config/view/view_backups_script.sh"
+include "$HOME/autoback/config/delete/backup_delete_script.sh"
 printf "Welcome to Autoback\n"	
 while [ true ]
 do

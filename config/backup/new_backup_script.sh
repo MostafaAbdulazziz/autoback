@@ -1,4 +1,4 @@
-source "$HOME/autoback/config/compression_script.sh"
+source "$HOME/autoback/config/backup/compression_script.sh"
 new_backup()
 {
 	printf "Enter Backup Directory:"

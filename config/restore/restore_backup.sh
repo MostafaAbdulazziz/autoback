@@ -1,4 +1,4 @@
-source "$HOME/autoback/config/_restore_backup.sh"
+source "$HOME/autoback/config/restore/_restore_backup.sh"
 restore(){
     printf "Available backups:\n"
     ls -l "$HOME/autoback/backup" 
